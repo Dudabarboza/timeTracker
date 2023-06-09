@@ -1,0 +1,79 @@
+:root{
+    /* ##Primary */
+    --blue: hsl(246, 80%, 60%);
+
+    --light-red-work: hsl(15, 100%, 70%);
+    --soft-blue-play: hsl(195, 74%, 62%);
+    --light-red-study: hsl(348, 100%, 68%);
+    --lime-green-exercise: hsl(145, 58%, 55%);
+    --violet-social: hsl(264, 64%, 52%);
+    --soft-orange-self-care: hsl(43, 84%, 65%);
+
+    /* ##Neutral */
+
+    --very-dark-blue: hsl(226, 43%, 10%);
+    --dark-blue: hsl(235, 46%, 20%);
+    --desaturated-blue: hsl(235, 45%, 61%);
+    --pale-blue: hsl(236, 100%, 87%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: var(--very-dark-blue);
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Rubik', sans-serif;
+}
+main{
+    display: flex;
+}
+article{
+    height: 400px;
+    width: 250px;
+
+    background-color: var(--dark-blue);
+    border-radius: 15px;
+}
+.jeremy-img{
+    width: 60px;
+    height: 60px;
+
+    border: solid #fff;
+    border-radius: 60px;
+}
+.card-blue{
+    background-color: var(--blue);
+    border-radius: 15px;
+
+    padding: 20px;
+    height: 250px;
+}
+.for{
+    color: var(--pale-blue);
+}
+.name{
+    color: #fff;
+}
+.footer-card-blue{
+    padding: 20px;
+}
+.work-card, .play-card, .study-card, .exercise-card, .social-card, .self-care-card{
+    width: 250px;
+    height: 150px;
+}
+.work-card{
+    background-color: var(--dark-blue);
+}
+.card-1, .card-2, .card-3, .card-4, .card-5, .card-6{
+    background-color: var(--light-red-work);
+    height: 100px;
+}
